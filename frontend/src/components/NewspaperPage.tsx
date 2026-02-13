@@ -242,7 +242,7 @@ export default function NewspaperPage({ valentineData, images }: NewspaperPagePr
               initial={{ opacity: 0, x: -50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ delay: 0.5 }}
-              className="h-48 sm:h-64 md:h-96 border-2 md:border-4 border-gray-300"
+              className="h-64 sm:h-80 md:h-96 border-2 md:border-4 border-gray-300"
             >
               <ImageCarousel images={images} />
             </motion.div>
