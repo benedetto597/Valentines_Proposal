@@ -37,33 +37,23 @@ tu piel despierta mis deseos.
 Eres la chispa, que enciende
 mi alma cada que nos vemos.
 
-Que el mundo gire sin medida,
+Eres mi risa, mi travesura,
+mi dulce caos, mi aventura.
+
+Amor tu eres mi mapa y mi brújula,
+tus besos son mi ruta.
+Si la vida fuera un baile,
+tú serías mi música absoluta.
+
+Más que el mundo gira sin medida,
 quiero estar en tu vida,
 y en cada amanecer sentir
 que contigo quiero compartir.
 
-Si el amor tuviera un mapa,
-tus besos serían mi ruta.
-Si la vida fuera un baile,
-tú serías mi música absoluta.
-
-Eres mi risa, mi travesura,
-mi dulce caos, mi aventura.
-
-No necesito fortuna ni destino,
-solo caminar contigo el camino,
+Organizó mi tiempo y solo quiero
+caminar contigo todo el camino,
 y en cada paso recordar:
-que contigo siempre quiero estar.
-
-Cada beso tuyo es destino,
-cada abrazo, un universo divino.
-Si la vida me diera elección,
-siempre elegiría tu corazón.
-
-Si fueras estrella, yo sería cielo,
-tu habitas en mi mente, corazón y cuerpo.
-No hay reloj que marque distancia,
-ni rutina que rompa la danza.`,
+que contigo siempre quiero estar.`,
       footer: "YOU + ME = Destiny !",
       // 🌹 MENSAJE QUE APARECE EN LA IMAGEN DE TULIPANES 🌹
       // Edita este texto para personalizarlo
