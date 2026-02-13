@@ -1,4 +1,16 @@
 /** @type {import('next').NextConfig} */
+
+// Extraer el hostname del URL de la API
+const getBackendHost = () => {
+  const apiUrl = process.env.NEXT_PUBLIC_API_URL || 'http://localhost:3001';
+  try {
+    const url = new URL(apiUrl);
+    return url.hostname;
+  } catch {
+    return 'localhost';
+  }
+};
+
 const nextConfig = {
   images: {
     unoptimized: true,
@@ -21,6 +33,18 @@ const nextConfig = {
         port: '3001',
         pathname: '/images/**',
       },
+      // Permitir imágenes desde el backend en producción
+      {
+        protocol: 'https',
+        hostname: getBackendHost(),
+        pathname: '/images/**',
+      },
+      {
+        protocol: 'http',
+        hostname: getBackendHost(),
+        pathname: '/images/**',
+      },
+      // Fallback para cualquier HTTPS
       {
         protocol: 'https',
         hostname: '**',
