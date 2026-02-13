@@ -18,10 +18,9 @@ interface ValentineData {
 interface NewspaperPageProps {
   valentineData: ValentineData;
   images: string[];
-  apiUrl: string;
 }
 
-export default function NewspaperPage({ valentineData, images, apiUrl }: NewspaperPageProps) {
+export default function NewspaperPage({ valentineData, images }: NewspaperPageProps) {
   const [showResponse, setShowResponse] = useState(false);
   const [response, setResponse] = useState<'yes' | 'no' | null>(null);
   const [noClickCount, setNoClickCount] = useState(0);
@@ -106,7 +105,7 @@ export default function NewspaperPage({ valentineData, images, apiUrl }: Newspap
             className="relative w-full max-w-2xl mx-auto mb-8 h-64 md:h-96 rounded-2xl overflow-hidden shadow-2xl"
           >
             <Image
-              src={`${apiUrl}/images/snoopy/tulipanes.png`}
+              src="/images/snoopy/tulipanes.png"
               alt="Tulipanes"
               fill
               className="object-cover"
@@ -245,7 +244,7 @@ export default function NewspaperPage({ valentineData, images, apiUrl }: Newspap
               transition={{ delay: 0.5 }}
               className="h-48 sm:h-64 md:h-96 border-2 md:border-4 border-gray-300"
             >
-              <ImageCarousel images={images} apiUrl={apiUrl} />
+              <ImageCarousel images={images} />
             </motion.div>
 
             {/* Texto derecho */}

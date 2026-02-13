@@ -6,10 +6,9 @@ import { motion, AnimatePresence } from 'framer-motion';
 
 interface ImageCarouselProps {
   images: string[];
-  apiUrl: string;
 }
 
-export default function ImageCarousel({ images, apiUrl }: ImageCarouselProps) {
+export default function ImageCarousel({ images }: ImageCarouselProps) {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState(0);
 
@@ -81,7 +80,7 @@ export default function ImageCarousel({ images, apiUrl }: ImageCarouselProps) {
           className="absolute w-full h-full"
         >
           <Image
-            src={`${apiUrl}${images[currentIndex]}`}
+            src={`/images/${images[currentIndex]}`}
             alt={`Foto ${currentIndex + 1}`}
             fill
             className="object-cover"
