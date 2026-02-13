@@ -61,15 +61,9 @@ Si la vida me diera elección,
 siempre elegiría tu corazón.
 
 Si fueras estrella, yo sería cielo,
-si fueras canción, yo sería el vuelo.
+tu habitas en mi mente, corazón y cuerpo.
 No hay reloj que marque distancia,
-ni rutina que rompa la danza.
-
-No suelo necesitar palabras para decir lo que siento,
-pero hoy quiero gritarlo al viento:
-
-
-Te amo más de lo que las palabras pueden expresar.`,
+ni rutina que rompa la danza.`,
       footer: "YOU + ME = Destiny !",
       // 🌹 MENSAJE QUE APARECE EN LA IMAGEN DE TULIPANES 🌹
       // Edita este texto para personalizarlo
